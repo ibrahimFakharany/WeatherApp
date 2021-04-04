@@ -14,7 +14,6 @@ abstract class MvpActivity<in V : MvpView, P : MvpPresenter<V>> : AppCompatActiv
 
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Toast.makeText(this, "oncreate inmvp activity", Toast.LENGTH_LONG).show()
 
         inject()
         presenter.onAttach(view = this as V)
