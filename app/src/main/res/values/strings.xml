@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="take_pic">Take picture</string>
+    <string name="facebook_app_id">250001773492819</string>
+    <string name="explanations_perms">Please approve permissions for camera and location</string>
+    <string name="share_photo">share</string>
+    <string name="recent_images">Recent images</string>
+</resources>
